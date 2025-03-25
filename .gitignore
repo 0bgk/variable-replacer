@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+.DS_Store
+
+# VSCode settings
+.vscode/

@@ -1,0 +1,25 @@
+{
+  "name": "variable-replacer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A utility for replacing environment variables in template files",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "author": "0bgk",
+  "license": "MIT",
+  "keywords": [
+    "env",
+    "variables",
+    "template",
+    "substitution",
+    "build"
+  ],
+  "engines": {
+    "node": ">=21.0.0"
+  }
+}
