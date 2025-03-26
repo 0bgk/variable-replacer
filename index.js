@@ -15,9 +15,6 @@ const replaceVariablesInFile = (filePath) => {
   let content = fs.readFileSync(filePath, 'utf-8')
 
   for (const key in process.env) {
-    console.log(process.env[key
-    ]);
-
     const regex = new RegExp(`{{\\s*process\\.env\\.${key}\\s*}}`, 'g')
     content = content.replace(regex, `'${process.env[key]}'`)
   }
